@@ -1,7 +1,7 @@
 # Author:: Christophe Arguel (<christophe.arguel@free.fr>)
 #
 # Cookbook Name:: java
-# Recipe:: oracle_rpm
+# Recipe:: oracle_jre_rpm
 #
 # Copyright 2010-2013, Opscode, Inc.
 #
