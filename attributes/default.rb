@@ -53,6 +53,8 @@ if node['java']['install_flavor'] == 'ibm'
   default['java']['ibm']['checksum'] = nil
   default['java']['ibm']['accept_ibm_download_terms'] = false
   default['java']['java_home'] = "/opt/ibm/java"
+elsif node['java']['install_flavor'] == 'oracle_jre_rpm'
+  default['java']['java_home'] = "/usr/java/jre#{node['java']['jdk_version']}"
 end
 
 # if you change this to true, you can download directly from Oracle

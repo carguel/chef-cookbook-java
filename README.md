@@ -121,6 +121,12 @@ same machine that require different versions of the JVM.
 
 This recipe operates in a similar manner to `java::oracle`.
 
+## oracle_jre_rpm
+
+This recipes installs the Oracle JRE provided as a RPM.
+It also uses the `alternatives` system on RHEL/Debian families to set 
+the default Java. 
+
 ## windows
 
 Because there is no easy way to pull the java msi off oracle's site,
